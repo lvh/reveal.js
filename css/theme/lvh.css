@@ -7,8 +7,17 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-.reveal code {
+.reveal code, .reveal .src {
   font-family: Menlo, monospace; }
+
+.reveal .src {
+  font-size: .8em; }
+
+.reveal section img {
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 0.12);
+  border: none !important;
+  box-shadow: none !important; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -62,7 +71,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: red;
+  color: #cc0000;
   text-shadow: none;
   border: none; }
 
@@ -109,16 +118,16 @@ body {
   border-top-color: red; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: red; }
+  border-right-color: #cc0000; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: red; }
+  border-left-color: #cc0000; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: red; }
+  border-bottom-color: #cc0000; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: red; }
+  border-top-color: #cc0000; }
 
 /*********************************************
  * PROGRESS BAR
