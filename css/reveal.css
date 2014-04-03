@@ -1877,4 +1877,11 @@ body {
 	visibility: hidden;
 }
 
-
+/* pixelate scaled pixel art --lvh */
+.pixelated {
+  image-rendering: optimizeSpeed;             /* Legal fallback */
+  image-rendering: -moz-crisp-edges;          /* Firefox        */
+  image-rendering: -o-crisp-edges;            /* Opera          */
+  image-rendering: -webkit-optimize-contrast; /* Safari         */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+           */
+}

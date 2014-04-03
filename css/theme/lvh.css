@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Dosis:400);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=ABeeZee);
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -8,16 +7,19 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 .reveal code, .reveal .src {
-  font-family: Menlo, monospace; }
+  font-family: Monaco, monospace;
+}
 
 .reveal .src {
-  font-size: .8em; }
+  font-size: .8em;
+}
 
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
   border: none !important;
-  box-shadow: none !important; }
+  box-shadow: none !important;
+}
 
 /*********************************************
  * GLOBAL STYLES
@@ -27,16 +29,25 @@ body {
   background-color: white; }
 
 .reveal {
-  font-family: Lato, sans-serif;
-  font-size: 36px;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 42px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: black; }
+  color: black;
+}
 
 ::selection {
   color: white;
   background: rgba(0, 0, 0, 0.99);
-  text-shadow: none; }
+  text-shadow: none;
+}
+
+/* Overrides */
+
+.reveal pre {
+    width: auto !important;
+    box-shadow: none;
+}
 
 /*********************************************
  * HEADERS
@@ -49,7 +60,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: black;
-  font-family: Dosis, sans-serif;
+  font-family: 'ABeeZee', sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
