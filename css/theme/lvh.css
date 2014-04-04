@@ -34,7 +34,7 @@ body {
   font-size: 42px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: black;
+  color: #222;
 }
 
 ::selection {
@@ -60,7 +60,6 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: black;
   font-family: 'ABeeZee', sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
