@@ -47,6 +47,7 @@ body {
 
 .reveal pre {
     display: inline-block !important;
+    width: auto !important;
     box-shadow: none;
 }
 
