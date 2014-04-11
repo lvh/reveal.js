@@ -1,4 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=ABeeZee);
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ABeeZee'), local('ABeeZee-Regular'), url(http://localhost:8080/reveal.js/css/font/abeezee.woff), url(http://localhost:8080/reveal.js/css/font/abeezee.woff) format('woff');
+}
+
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
