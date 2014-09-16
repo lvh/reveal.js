@@ -4,8 +4,11 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=Dosis:400);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic);
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src: local("ABeeZee"), local("ABeeZee-Regular"), url(../font/abeezee.woff), url(../font/abeezee.woff) format("woff"); }
 .reveal code, .reveal .src {
   font-family: Menlo, monospace; }
 
@@ -23,15 +26,15 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff;
-  background-color: #fff; }
+  background: #f4f3f3;
+  background-color: #f4f3f3; }
 
 .reveal {
-  font-family: Lato, sans-serif;
+  font-family: ABeeZee, sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #000; }
+  color: #292627; }
 
 ::selection {
   color: #fff;
@@ -53,8 +56,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #000;
-  font-family: Dosis, sans-serif;
+  color: #292627;
+  font-family: ABeeZee, sans-serif;
   line-height: 1em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -210,20 +213,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #f00;
+  color: #520;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #cc0000;
+  color: #883600;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #b30000; }
+  background: #080300; }
 
 /*********************************************
  * IMAGES
@@ -231,7 +234,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #000;
+  border: 4px solid #292627;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal a img {
@@ -241,7 +244,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #f00;
+  border-color: #520;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -249,31 +252,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #f00; }
+  border-right-color: #520; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #f00; }
+  border-left-color: #520; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #f00; }
+  border-bottom-color: #520; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #f00; }
+  border-top-color: #520; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #cc0000; }
+  border-right-color: #883600; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #cc0000; }
+  border-left-color: #883600; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #cc0000; }
+  border-bottom-color: #883600; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #cc0000; }
+  border-top-color: #883600; }
 
 /*********************************************
  * PROGRESS BAR
@@ -282,7 +285,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #f00;
+  background: #520;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -291,6 +294,6 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #f00; }
+  color: #520; }
 
 /*# sourceMappingURL=lvh.css.map */
