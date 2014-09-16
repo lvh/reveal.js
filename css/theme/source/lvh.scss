@@ -33,20 +33,20 @@ $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 .reveal code, .reveal .src {
-  font-family: Menlo, monospace;
+    font-family: Menlo, monospace;
 }
 
 .reveal .src {
-  font-size: .8em;
-  box-shadow: none !important;
+    font-size: .8em;
+    box-shadow: none !important;
 }
 
 .reveal section img {
-  margin: 15px 0px;
-  background: rgba(255,255,255,0.12);
+    margin: 15px 0px;
+    background: rgba(255,255,255,0.12);
 
-  border: none !important;
-  box-shadow: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 // Theme template ------------------------------
