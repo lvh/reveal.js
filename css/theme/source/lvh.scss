@@ -10,14 +10,14 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-@font-face {
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    src: local('ABeeZee'), local('ABeeZee-Regular'), url(../font/abeezee.woff), url(../font/abeezee.woff) format('woff');
-}
+/* @font-face { */
+/*     font-family: 'ABeeZee'; */
+/*     font-style: normal; */
+/*     font-weight: 400; */
+/*     src: local('ABeeZee'), local('ABeeZee-Regular'), url(../font/abeezee.woff), url(../font/abeezee.woff) format('woff'); */
+/* } */
 
-$mainFont: ABeeZee, sans-serif;
+$mainFont: Helvetica, sans-serif;
 $mainColor: #292627;
 
 $headingFont: ABeeZee, sans-serif;
