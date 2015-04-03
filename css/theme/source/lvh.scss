@@ -54,6 +54,10 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     box-shadow: none !important;
 }
 
+.reveal blockquote {
+    box-shadow: none !important;
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
