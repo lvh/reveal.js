@@ -7,8 +7,11 @@
 @import "../template/settings";
 // ---------------------------------------------
 
+$rackspaceRed: #C40022;
+$rackspaceDarkGray: #1A1A1A;
+
 $mainFont: Gotham, Helvetica, sans-serif;
-$mainColor: #292627;
+$mainColor: $rackspaceDarkGray;
 
 $headingFont: $mainFont;
 $headingColor: $mainColor;
@@ -18,7 +21,7 @@ $heading1TextShadow: none;
 
 $backgroundColor: lighten($mainColor, 80%);
 
-$linkColor: #520;
+$linkColor: $rackspaceDarkGray;
 $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
