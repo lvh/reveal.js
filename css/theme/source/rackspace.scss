@@ -25,48 +25,48 @@ $linkColor: $rackspaceDarkGray;
 $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
 .reveal code, .reveal .src {
-    font-family: Menlo, monospace;
+  font-family: Menlo, monospace;
 }
 
 .reveal .src {
-    font-size: .8em;
-    box-shadow: none !important;
+  font-size: .8em;
+  box-shadow: none;
 }
 
 .reveal pre {
-    display: inline-block !important;
-    width: auto !important;
+  display: inline-block;
+  width: auto;
 }
 
 .reveal section img {
-    margin: 15px 0px;
-    background: rgba(255,255,255,0.12);
+  margin: 15px 0px;
+  background: rgba(255,255,255,0.12);
 
-    border: none !important;
-    box-shadow: none !important;
+  border: none;
+  box-shadow: none;
 }
 
 .reveal blockquote {
-    box-shadow: none !important;
+  box-shadow: none;
 }
 
 .reveal h1 {
-  font-size: 3em !important;
+  font-size: 3em;
 }
 
 .reveal h2 {
-  font-size: 2em !important;
+  font-size: 2em;
 }
 
 .reveal h4 {
-  font-size: 1.55em !important;
+  font-size: 1.55em;
 }
 
 .reveal .progress {
   height: 7px;
 }
-
-// Theme template ------------------------------
-@import "../template/theme";
-// ---------------------------------------------
