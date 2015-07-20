@@ -1,0 +1,69 @@
+/**
+ * Unofficial Rackspace theme, based on lvh's personal theme
+ */
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+$mainFont: Gotham, Helvetica, sans-serif;
+$mainColor: #292627;
+
+$headingFont: $mainFont;
+$headingColor: $mainColor;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$heading1TextShadow: none;
+
+$backgroundColor: lighten($mainColor, 80%);
+
+$linkColor: #520;
+$linkColorHover: lighten($linkColor, 10%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+.reveal code, .reveal .src {
+    font-family: Menlo, monospace;
+}
+
+.reveal .src {
+    font-size: .8em;
+    box-shadow: none !important;
+}
+
+.reveal pre {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.reveal section img {
+    margin: 15px 0px;
+    background: rgba(255,255,255,0.12);
+
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.reveal blockquote {
+    box-shadow: none !important;
+}
+
+.reveal h1 {
+  font-size: 3em !important;
+}
+
+.reveal h2 {
+  font-size: 2em !important;
+}
+
+.reveal h4 {
+  font-size: 1.55em !important;
+}
+
+.reveal .progress {
+  height: 7px;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
