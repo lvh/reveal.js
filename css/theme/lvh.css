@@ -4,12 +4,6 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-/* @font-face { */
-/*     font-family: 'ABeeZee'; */
-/*     font-style: normal; */
-/*     font-weight: 400; */
-/*     src: local('ABeeZee'), local('ABeeZee-Regular'), url(../font/abeezee.woff), url(../font/abeezee.woff) format('woff'); */
-/* } */
 .reveal code, .reveal .src {
   font-family: Menlo, monospace; }
 
@@ -23,7 +17,7 @@
 
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
+  background: none !important;
   border: none !important;
   box-shadow: none !important; }
 

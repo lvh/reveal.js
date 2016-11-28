@@ -10,13 +10,6 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-/* @font-face { */
-/*     font-family: 'ABeeZee'; */
-/*     font-style: normal; */
-/*     font-weight: 400; */
-/*     src: local('ABeeZee'), local('ABeeZee-Regular'), url(../font/abeezee.woff), url(../font/abeezee.woff) format('woff'); */
-/* } */
-
 $mainFont: Helvetica, sans-serif;
 $mainColor: #292627;
 
@@ -48,8 +41,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 .reveal section img {
     margin: 15px 0px;
-    background: rgba(255,255,255,0.12);
-
+    background: none !important;
     border: none !important;
     box-shadow: none !important;
 }
