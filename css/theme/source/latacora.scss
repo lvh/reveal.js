@@ -1,0 +1,73 @@
+/**
+ * Latacora's personal theme
+ *
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+$mainFont: 'Unit OT', Helvetica, sans-serif;
+$mainColor: #323E35;
+
+$headingFont: Vitesse, Helvetica, sans-serif;
+$headingColor: $mainColor;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$heading1TextShadow: none;
+
+$backgroundColor: rgb(231, 242, 234);
+
+$linkColor: rgb(130, 157, 135);
+$linkColorHover: lighten($linkColor, 10%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+.reveal code, .reveal .src {
+    font-size: 1.4em;
+    line-height: 120%;
+    font-family: Menlo, monospace;
+}
+
+.reveal .src {
+    font-size: 1.4em;
+    line-height: 120%;
+    box-shadow: none !important;
+}
+
+.reveal pre {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.reveal section img {
+    margin: 15px 0px;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.reveal blockquote {
+    box-shadow: none !important;
+}
+
+.reveal h1 {
+  font-size: 3em !important;
+}
+
+.reveal h2 {
+  font-size: 2em !important;
+}
+
+.reveal h4 {
+  font-size: 1.55em !important;
+}
+
+.reveal .progress {
+  height: 7px;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
