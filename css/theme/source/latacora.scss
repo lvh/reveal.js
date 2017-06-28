@@ -1,5 +1,5 @@
 /**
- * Latacora's personal theme
+ * Latacora's theme
  *
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
@@ -25,9 +25,7 @@ $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 .reveal code, .reveal .src {
-    font-size: 1.4em;
-    line-height: 120%;
-    font-family: Menlo, monospace;
+   font-family: "Fira Code", Menlo, monospace;
 }
 
 .reveal .src {
