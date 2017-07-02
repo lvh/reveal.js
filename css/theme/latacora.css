@@ -6,7 +6,7 @@
 .reveal code, .reveal .src {
   font-family: "Fira Code", Menlo, monospace; }
 
-.reveal .src {
+.reveal .src, .reveal code.hljs {
   font-size: 1.4em;
   line-height: 120%;
   box-shadow: none !important; }
