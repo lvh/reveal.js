@@ -9,23 +9,27 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$mainFont: 'Unit OT', Helvetica, sans-serif;
-$mainColor: #323E35;
+$darkgreen: #26584d; // PMS 626 C
+$blackgreen: #111820; // PMS Black 6 C
+$lightgreen: #b7dc78; // PMS 366 C
 
-$headingFont: Vitesse, Helvetica, sans-serif;
-$headingColor: $mainColor;
+$mainFont: 'Calluna Sans', Helvetica, sans-serif;
+$mainColor: $darkgreen; 
+
+$headingFont: 'Calluna', Helvetica, sans-serif;
+$headingColor: $darkgreen;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
 
-$backgroundColor: rgb(231, 242, 234);
+$backgroundColor: #ffffff;
 
-$linkColor: rgb(130, 157, 135);
+$linkColor: $darkgreen;
 $linkColorHover: lighten($linkColor, 10%);
-$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$selectionBackgroundColor: $lightgreen;
 
 .reveal code, .reveal .src {
-   font-family: "Fira Code", Menlo, monospace;
+   font-family: "Fira Code", Monaco, Menlo, monospace;
 }
 
 .reveal .src, .reveal code.hljs {
