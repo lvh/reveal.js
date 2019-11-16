@@ -10,10 +10,10 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$mainFont: Helvetica, sans-serif;
+$mainFont: Roboto, Helvetica, sans-serif;
 $mainColor: #292627;
 
-$headingFont: ABeeZee, sans-serif;
+$headingFont: Roboto, Helvetica, sans-serif;
 $headingColor: $mainColor;
 $headingTextShadow: none;
 $headingTextTransform: none;
@@ -26,7 +26,7 @@ $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 .reveal code, .reveal .src {
-    font-family: Menlo, monospace;
+    font-family: "Source Code Pro", Menlo, monospace;
 }
 
 .reveal .src {
@@ -37,6 +37,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 .reveal pre {
     display: inline-block !important;
     width: auto !important;
+    box-shadow: none !important;
 }
 
 .reveal section img {

@@ -5,7 +5,7 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 .reveal code, .reveal .src {
-  font-family: Menlo, monospace; }
+  font-family: "Source Code Pro", Menlo, monospace; }
 
 .reveal .src {
   font-size: .8em;
@@ -13,7 +13,8 @@
 
 .reveal pre {
   display: inline-block !important;
-  width: auto !important; }
+  width: auto !important;
+  box-shadow: none !important; }
 
 .reveal section img {
   margin: 15px 0px;
@@ -44,7 +45,7 @@ body {
   background-color: #f4f3f3; }
 
 .reveal {
-  font-family: Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #292627; }
@@ -75,7 +76,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #292627;
-  font-family: ABeeZee, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
