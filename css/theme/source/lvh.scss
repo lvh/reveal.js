@@ -25,12 +25,17 @@ $linkColor: #520;
 $linkColorHover: lighten($linkColor, 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
-.reveal code, .reveal .src {
-    font-family: "Source Code Pro", Menlo, monospace;
+.hljs {
+    background-color: $backgroundColor !important;
+}
+
+.reveal code {
+    font-family: "Source Code Pro", Menlo, monospace !important;
 }
 
 .reveal .src {
-    font-size: .8em;
+    font-family: "Source Code Pro", Menlo, monospace !important;
+    font-size: .8em !important;
     box-shadow: none !important;
 }
 
@@ -52,11 +57,13 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 }
 
 .reveal h1 {
-  font-size: 3em !important;
+    font-size: 3em !important;
+    font-weight: bold !important;
 }
 
 .reveal h2 {
-  font-size: 2em !important;
+    font-size: 2em !important;
+    font-weight: bold !important;
 }
 
 .reveal h4 {
