@@ -4,6 +4,7 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro&display=swap");
 .hljs {
   background-color: #f4f3f3 !important; }
 
@@ -51,7 +52,7 @@ body {
   background-color: #f4f3f3; }
 
 .reveal {
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: Roboto, "Noto Color Emoji", Helvetica, sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #292627; }
@@ -82,7 +83,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #292627;
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: Roboto, "Noto Color Emoji", Helvetica, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;

@@ -10,10 +10,12 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$mainFont: Roboto, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro&display=swap');
+
+$mainFont: Roboto, "Noto Color Emoji", Helvetica, sans-serif;
 $mainColor: #292627;
 
-$headingFont: Roboto, Helvetica, sans-serif;
+$headingFont: $mainFont;
 $headingColor: $mainColor;
 $headingTextShadow: none;
 $headingTextTransform: none;
