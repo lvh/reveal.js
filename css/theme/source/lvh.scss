@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /**
  * lvh's personal theme
  *
@@ -21,10 +23,10 @@ $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
 
-$backgroundColor: lighten($mainColor, 80%);
+$backgroundColor: color.adjust($mainColor, $lightness: 80%);
 
 $linkColor: #520;
-$linkColorHover: lighten($linkColor, 10%);
+$linkColorHover: color.adjust($linkColor, $lightness: 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 .hljs {

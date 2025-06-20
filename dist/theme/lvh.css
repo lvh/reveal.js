@@ -6,7 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto|Source+Code+Pro&display=swap");
 .hljs {
-  background-color: #f4f3f3 !important;
+  background-color: rgb(243.9367088608, 243.0632911392, 243.3544303797) !important;
 }
 
 .reveal code {
@@ -58,7 +58,7 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #f4f3f3;
+  --r-background-color: rgb(243.9367088608, 243.0632911392, 243.3544303797);
   --r-main-font: Roboto, Noto Color Emoji, Helvetica, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #292627;
@@ -78,14 +78,16 @@
   --r-heading4-size: 1em;
   --r-code-font: monospace;
   --r-link-color: #520;
-  --r-link-color-dark: #090300;
-  --r-link-color-hover: #883600;
+  --r-link-color-dark: rgb(72.25, 28.9, 0);
+  --r-link-color-hover: rgb(136, 54.4, 0);
   --r-selection-background-color: rgba(0, 0, 0, 0.99);
   --r-selection-color: #fff;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: #f4f3f3;
+  background: rgb(243.9367088608, 243.0632911392, 243.3544303797);
   background-color: var(--r-background-color);
 }
 

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /**
  * Unofficial Rackspace theme, based on lvh's personal theme
  */
@@ -19,10 +21,10 @@ $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
 
-$backgroundColor: lighten($mainColor, 90%);
+$backgroundColor: color.adjust($mainColor, $lightness: 90%);
 
 $linkColor: $rackspaceRed;
-$linkColorHover: lighten($linkColor, 10%);
+$linkColorHover: color.adjust($rackspaceRed, $lightness: 10%);
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
 // Theme template ------------------------------

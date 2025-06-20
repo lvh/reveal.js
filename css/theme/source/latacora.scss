@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /**
  * Latacora's theme
  *
@@ -25,7 +27,7 @@ $heading1TextShadow: none;
 $backgroundColor: #ffffff;
 
 $linkColor: $darkgreen;
-$linkColorHover: lighten($linkColor, 10%);
+$linkColorHover: color.adjust($linkColor, $lightness: 10%);
 $selectionBackgroundColor: $lightgreen;
 
 .reveal code, .reveal .src {

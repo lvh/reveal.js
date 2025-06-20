@@ -69,10 +69,12 @@
   --r-heading4-size: 1em;
   --r-code-font: monospace;
   --r-link-color: #26584d;
-  --r-link-color-dark: #0f231e;
-  --r-link-color-hover: #357c6c;
+  --r-link-color-dark: rgb(32.3, 74.8, 65.45);
+  --r-link-color-hover: rgb(53.380952381, 123.619047619, 108.1666666667);
   --r-selection-background-color: #b7dc78;
   --r-selection-color: #fff;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {

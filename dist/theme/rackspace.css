@@ -5,7 +5,7 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: white;
+  --r-background-color: hsl(0, 0%, 100.1960784314%);
   --r-main-font: Gotham, Helvetica, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #1A1A1A;
@@ -25,14 +25,16 @@
   --r-heading4-size: 1em;
   --r-code-font: monospace;
   --r-link-color: #C40022;
-  --r-link-color-dark: #780015;
-  --r-link-color-hover: #f7002b;
+  --r-link-color-dark: rgb(166.6, 0, 28.9);
+  --r-link-color-hover: rgb(247, 0, 42.8469387755);
   --r-selection-background-color: rgba(0, 0, 0, 0.99);
   --r-selection-color: #fff;
+  --r-overlay-element-bg-color: 240, 240, 240;
+  --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: white;
+  background: hsl(0, 0%, 100.1960784314%);
   background-color: var(--r-background-color);
 }
 
