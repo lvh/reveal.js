@@ -3,82 +3,41 @@
  *
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-.reveal code, .reveal .src {
-  font-family: "Fira Code", Monaco, Menlo, monospace;
-}
-
-.reveal .src, .reveal code.hljs {
-  font-size: 1.4em;
-  line-height: 120%;
-  box-shadow: none !important;
-}
-
-.reveal pre {
-  display: inline-block !important;
-  width: auto !important;
-}
-
-.reveal section img {
-  margin: 15px 0px;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.reveal blockquote {
-  box-shadow: none !important;
-}
-
-.reveal h1 {
-  font-size: 3em !important;
-}
-
-.reveal h2 {
-  font-size: 2em !important;
-}
-
-.reveal h4 {
-  font-size: 1.55em !important;
-}
-
-.reveal .progress {
-  height: 7px;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap");
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #ffffff;
-  --r-main-font: Calluna Sans, Helvetica, sans-serif;
+  --r-background-color: rgb(226, 219, 213);
+  --r-main-font: Poppins, Helvetica, sans-serif;
   --r-main-font-size: 40px;
-  --r-main-color: #26584d;
+  --r-main-color: rgb(40, 40, 40);
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font: Calluna, Helvetica, sans-serif;
-  --r-heading-color: #26584d;
+  --r-heading-font: Poppins, Helvetica, sans-serif;
+  --r-heading-color: rgb(40, 40, 40);
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
   --r-heading-text-shadow: none;
-  --r-heading-font-weight: normal;
+  --r-heading-font-weight: 600;
   --r-heading1-text-shadow: none;
   --r-heading1-size: 3.77em;
   --r-heading2-size: 2.11em;
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
-  --r-code-font: monospace;
-  --r-link-color: #26584d;
-  --r-link-color-dark: rgb(32.3, 74.8, 65.45);
-  --r-link-color-hover: rgb(53.380952381, 123.619047619, 108.1666666667);
-  --r-selection-background-color: #b7dc78;
+  --r-code-font: Fira Code, Menlo, monospace;
+  --r-link-color: rgb(67, 173, 160);
+  --r-link-color-dark: rgb(56.95, 147.05, 136);
+  --r-link-color-hover: rgb(97.1375, 193.8625, 182);
+  --r-selection-background-color: rgb(67, 173, 160);
   --r-selection-color: #fff;
   --r-overlay-element-bg-color: 240, 240, 240;
   --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: #ffffff;
+  background: rgb(226, 219, 213);
   background-color: var(--r-background-color);
 }
 

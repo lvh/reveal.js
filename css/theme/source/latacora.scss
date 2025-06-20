@@ -11,66 +11,33 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$darkgreen: #26584d; // PMS 626 C
-$blackgreen: #111820; // PMS Black 6 C
+$darkGray: rgb(40 40 40);
+$teal: rgb(67 173 160);
+$taupe: rgb(226, 219, 213);
+
 $lightgreen: #b7dc78; // PMS 366 C
 
-$mainFont: 'Calluna Sans', Helvetica, sans-serif;
-$mainColor: $darkgreen; 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap");
 
-$headingFont: 'Calluna', Helvetica, sans-serif;
-$headingColor: $darkgreen;
+$mainFont: 'Poppins', Helvetica, sans-serif;
+$mainColor: $darkGray;
+
+$headingFont: 'Poppins', Helvetica, sans-serif;
+$headingFontWeight: 600;
+$headingColor: $darkGray;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
 
-$backgroundColor: #ffffff;
+$codeFont: "Fira Code", "Menlo", monospace;
 
-$linkColor: $darkgreen;
+$backgroundColor: $taupe;
+
+$linkColor: $teal;
 $linkColorHover: color.adjust($linkColor, $lightness: 10%);
-$selectionBackgroundColor: $lightgreen;
 
-.reveal code, .reveal .src {
-   font-family: "Fira Code", Monaco, Menlo, monospace;
-}
-
-.reveal .src, .reveal code.hljs {
-    font-size: 1.4em;
-    line-height: 120%;
-    box-shadow: none !important;
-}
-
-.reveal pre {
-    display: inline-block !important;
-    width: auto !important;
-}
-
-.reveal section img {
-    margin: 15px 0px;
-    background: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-.reveal blockquote {
-    box-shadow: none !important;
-}
-
-.reveal h1 {
-  font-size: 3em !important;
-}
-
-.reveal h2 {
-  font-size: 2em !important;
-}
-
-.reveal h4 {
-  font-size: 1.55em !important;
-}
-
-.reveal .progress {
-  height: 7px;
-}
+$selectionColor: #fff;
+$selectionBackgroundColor: $teal;
 
 // Theme template ------------------------------
 @import "../template/theme";
