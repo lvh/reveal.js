@@ -8,7 +8,7 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: rgb(226, 219, 213);
+  --r-background-color: #fff;
   --r-main-font: Poppins, Helvetica, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: rgb(40, 40, 40);
@@ -30,14 +30,14 @@
   --r-link-color: rgb(67, 173, 160);
   --r-link-color-dark: rgb(56.95, 147.05, 136);
   --r-link-color-hover: rgb(97.1375, 193.8625, 182);
-  --r-selection-background-color: rgb(67, 173, 160);
-  --r-selection-color: #fff;
+  --r-selection-background-color: rgb(226, 219, 213);
+  --r-selection-color: rgb(40, 40, 40);
   --r-overlay-element-bg-color: 240, 240, 240;
   --r-overlay-element-fg-color: 0, 0, 0;
 }
 
 .reveal-viewport {
-  background: rgb(226, 219, 213);
+  background: #fff;
   background-color: var(--r-background-color);
 }
 

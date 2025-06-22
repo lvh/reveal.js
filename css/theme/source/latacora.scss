@@ -14,8 +14,7 @@
 $darkGray: rgb(40 40 40);
 $teal: rgb(67 173 160);
 $taupe: rgb(226, 219, 213);
-
-$lightgreen: #b7dc78; // PMS 366 C
+$white: #fff;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap");
 
@@ -31,13 +30,13 @@ $heading1TextShadow: none;
 
 $codeFont: "Fira Code", "Menlo", monospace;
 
-$backgroundColor: $taupe;
+$backgroundColor: $white;
 
 $linkColor: $teal;
 $linkColorHover: color.adjust($linkColor, $lightness: 10%);
 
-$selectionColor: #fff;
-$selectionBackgroundColor: $teal;
+$selectionColor: $darkGray;
+$selectionBackgroundColor: $taupe;
 
 // Theme template ------------------------------
 @import "../template/theme";
