@@ -82,3 +82,32 @@ $selectionBackgroundColor: $taupe;
   width: auto;
   max-width: 80%;
 }
+
+// Accent slide utilities (matching website's blue background sections)
+.reveal section.accent-blue {
+  background: $darkBlue;
+  color: $white;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
+
+.reveal section.accent-teal {
+  background: $teal;
+  color: $white;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+}
+
+.reveal section.accent-taupe {
+  background: $taupe;
+  color: $darkGray;
+}
