@@ -25,10 +25,10 @@ $mainFont: 'Open Sans', Helvetica, sans-serif;
 $mainFontSize: 42px;
 $mainColor: $darkGray;
 
-// Headings: Poppins in dark blue (primary brand color)
+// Headings: Poppins in dark gray (matching website - blue is for backgrounds, not text)
 $headingFont: 'Poppins', Helvetica, sans-serif;
 $headingFontWeight: 600;
-$headingColor: $darkBlue;
+$headingColor: $darkGray;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
@@ -48,3 +48,29 @@ $selectionBackgroundColor: $taupe;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+// Override code block styles to match website look
+.reveal pre {
+  box-shadow: none;
+  background: #f0f0f0;
+  border-radius: 0.25rem;
+  padding: 0.5em;
+}
+
+// Pandoc wraps code in div.sourceCode - target that for centering
+.reveal div.sourceCode {
+  display: table;  // Shrinks to content width while allowing margin: auto centering
+  margin: var(--r-block-margin) auto;
+}
+
+// Blockquotes: match website style with teal left border
+.reveal blockquote {
+  background: #f0f0f0;
+  border-left: 4px solid $teal;
+  border-radius: 0.25rem;
+  padding: 1em 1.5em;
+  box-shadow: none;
+  font-style: normal;
+  width: auto;
+  max-width: 80%;
+}

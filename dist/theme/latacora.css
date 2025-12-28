@@ -15,7 +15,7 @@
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Poppins, Helvetica, sans-serif;
-  --r-heading-color: #003397;
+  --r-heading-color: #1A1818;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
@@ -352,4 +352,26 @@
   .backgrounds {
     background-color: var(--r-background-color);
   }
+}
+.reveal pre {
+  box-shadow: none;
+  background: #f0f0f0;
+  border-radius: 0.25rem;
+  padding: 0.5em;
+}
+
+.reveal div.sourceCode {
+  display: table;
+  margin: var(--r-block-margin) auto;
+}
+
+.reveal blockquote {
+  background: #f0f0f0;
+  border-left: 4px solid #50B9AF;
+  border-radius: 0.25rem;
+  padding: 1em 1.5em;
+  box-shadow: none;
+  font-style: normal;
+  width: auto;
+  max-width: 80%;
 }
