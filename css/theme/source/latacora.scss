@@ -74,9 +74,9 @@ $selectionBackgroundColor: $taupe;
 // Blockquotes: match website style with teal left border
 .reveal blockquote {
   background: #f0f0f0;
-  border-left: 16px solid $teal;
+  border-left: 10px solid $teal;
   border-radius: 0.25rem;
-  padding: 1em 1.5em;
+  padding: 0.75em 1em;
   box-shadow: none;
   font-style: normal;
   text-align: left;
@@ -101,4 +101,33 @@ $selectionBackgroundColor: $taupe;
   code {
     background: rgba(255, 255, 255, 0.2);
   }
+}
+
+// Accent box utilities for use with r-hstack/r-vstack layouts
+.reveal .accent-blue-box {
+  background: $darkBlue;
+  color: $white;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-teal-box {
+  background: $teal;
+  color: $white;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-taupe-box {
+  background: $taupe;
+  color: $darkGray;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-gray-box {
+  background: #f0f0f0;
+  color: $darkGray;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
 }

@@ -369,9 +369,9 @@
 
 .reveal blockquote {
   background: #f0f0f0;
-  border-left: 16px solid #50B9AF;
+  border-left: 10px solid #50B9AF;
   border-radius: 0.25rem;
-  padding: 1em 1.5em;
+  padding: 0.75em 1em;
   box-shadow: none;
   font-style: normal;
   text-align: left;
@@ -391,4 +391,32 @@
 }
 .reveal section.light-text code {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.reveal .accent-blue-box {
+  background: #003397;
+  color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-teal-box {
+  background: #50B9AF;
+  color: #fff;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-taupe-box {
+  background: #E2DBD5;
+  color: #1A1818;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+}
+
+.reveal .accent-gray-box {
+  background: #f0f0f0;
+  color: #1A1818;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
 }
