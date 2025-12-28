@@ -66,11 +66,12 @@ $selectionBackgroundColor: $taupe;
 // Blockquotes: match website style with teal left border
 .reveal blockquote {
   background: #f0f0f0;
-  border-left: 4px solid $teal;
+  border-left: 8px solid $teal;
   border-radius: 0.25rem;
   padding: 1em 1.5em;
   box-shadow: none;
   font-style: normal;
+  text-align: left;
   width: auto;
   max-width: 80%;
 }
