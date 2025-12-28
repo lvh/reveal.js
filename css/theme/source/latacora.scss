@@ -62,11 +62,12 @@ $selectionBackgroundColor: $taupe;
   border-radius: 0.25rem;
   padding: 0.5em;
   width: auto;  // Override base theme's width: 90%
+  display: table;  // Shrinks to content width while allowing margin: auto centering
 }
 
-// Pandoc wraps code in div.sourceCode - target that for centering
+// Pandoc wraps highlighted code in div.sourceCode
 .reveal div.sourceCode {
-  display: table;  // Shrinks to content width while allowing margin: auto centering
+  display: table;
   margin: var(--r-block-margin) auto;
 }
 
