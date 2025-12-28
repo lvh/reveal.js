@@ -379,27 +379,16 @@
   max-width: 80%;
 }
 
-.reveal section.accent-blue {
-  background: #003397;
+.reveal section.light-text {
   color: #fff;
 }
-.reveal section.accent-blue h1, .reveal section.accent-blue h2, .reveal section.accent-blue h3, .reveal section.accent-blue h4, .reveal section.accent-blue h5, .reveal section.accent-blue h6 {
+.reveal section.light-text h1, .reveal section.light-text h2, .reveal section.light-text h3, .reveal section.light-text h4, .reveal section.light-text h5, .reveal section.light-text h6 {
   color: #fff;
 }
-.reveal section.accent-blue a {
+.reveal section.light-text a {
   color: #fff;
   text-decoration: underline;
 }
-
-.reveal section.accent-teal {
-  background: #50B9AF;
-  color: #fff;
-}
-.reveal section.accent-teal h1, .reveal section.accent-teal h2, .reveal section.accent-teal h3, .reveal section.accent-teal h4, .reveal section.accent-teal h5, .reveal section.accent-teal h6 {
-  color: #fff;
-}
-
-.reveal section.accent-taupe {
-  background: #E2DBD5;
-  color: #1A1818;
+.reveal section.light-text code {
+  background: rgba(255, 255, 255, 0.2);
 }
