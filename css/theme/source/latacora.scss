@@ -11,19 +11,24 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-$darkGray: rgb(40 40 40);
-$teal: rgb(67 173 160);
-$taupe: rgb(226, 219, 213);
+// Brand colors from latacora.com
+$darkBlue: #003397;
+$teal: #50B9AF;
+$taupe: #E2DBD5;
+$darkGray: #1A1818;
 $white: #fff;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Open+Sans:wght@400;600&display=swap");
 
-$mainFont: 'Poppins', Helvetica, sans-serif;
+// Body text: Open Sans (matching website)
+$mainFont: 'Open Sans', Helvetica, sans-serif;
+$mainFontSize: 42px;
 $mainColor: $darkGray;
 
+// Headings: Poppins in dark blue (primary brand color)
 $headingFont: 'Poppins', Helvetica, sans-serif;
 $headingFontWeight: 600;
-$headingColor: $darkGray;
+$headingColor: $darkBlue;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
@@ -32,9 +37,11 @@ $codeFont: "Fira Code", "Menlo", monospace;
 
 $backgroundColor: $white;
 
+// Links, controls, progress bar all use teal
 $linkColor: $teal;
-$linkColorHover: color.adjust($linkColor, $lightness: 10%);
+$linkColorHover: color.scale($teal, $lightness: 20%);
 
+// Selection uses taupe
 $selectionColor: $darkGray;
 $selectionBackgroundColor: $taupe;
 

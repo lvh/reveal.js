@@ -3,19 +3,19 @@
  *
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Open+Sans:wght@400;600&display=swap");
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
   --r-background-color: #fff;
-  --r-main-font: Poppins, Helvetica, sans-serif;
-  --r-main-font-size: 40px;
-  --r-main-color: rgb(40, 40, 40);
+  --r-main-font: Open Sans, Helvetica, sans-serif;
+  --r-main-font-size: 42px;
+  --r-main-color: #1A1818;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Poppins, Helvetica, sans-serif;
-  --r-heading-color: rgb(40, 40, 40);
+  --r-heading-color: #003397;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
@@ -27,11 +27,11 @@
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: Fira Code, Menlo, monospace;
-  --r-link-color: rgb(67, 173, 160);
-  --r-link-color-dark: rgb(56.95, 147.05, 136);
-  --r-link-color-hover: rgb(97.1375, 193.8625, 182);
-  --r-selection-background-color: rgb(226, 219, 213);
-  --r-selection-color: rgb(40, 40, 40);
+  --r-link-color: #50B9AF;
+  --r-link-color-dark: rgb(64.3571428571, 160.8928571429, 151.6989795918);
+  --r-link-color-hover: #73c7bf;
+  --r-selection-background-color: #E2DBD5;
+  --r-selection-color: #1A1818;
   --r-overlay-element-bg-color: 240, 240, 240;
   --r-overlay-element-fg-color: 0, 0, 0;
 }

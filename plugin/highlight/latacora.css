@@ -1,0 +1,153 @@
+/**
+ * Latacora highlight.js theme
+ * Based on Chroma's "friendly" color scheme used on latacora.com
+ *
+ * @author Latacora
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f0f0f0;
+  color: #1a1818;
+}
+
+/* Reset color for substitutions within strings */
+.hljs-subst {
+  color: #1a1818;
+}
+
+/* Comments - muted blue-green, italic */
+.hljs-comment,
+.hljs-quote {
+  color: #60a0b0;
+  font-style: italic;
+}
+
+/* Keywords - dark green, bold */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color: #007020;
+  font-weight: bold;
+}
+
+/* Types - dark red/maroon */
+.hljs-type,
+.hljs-template-tag {
+  color: #902000;
+}
+
+/* Strings, attributes - blue-gray */
+.hljs-string,
+.hljs-attr,
+.hljs-attribute,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #4070a0;
+}
+
+/* Classes, built-ins - teal blue, bold */
+.hljs-title,
+.hljs-title.class_,
+.hljs-class .hljs-title,
+.hljs-built_in {
+  color: #0e84b5;
+  font-weight: bold;
+}
+
+/* Functions - dark blue */
+.hljs-title.function_,
+.hljs-function .hljs-title {
+  color: #06287e;
+}
+
+/* Variables - purple */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id {
+  color: #bb60d5;
+}
+
+/* Numbers - green */
+.hljs-number {
+  color: #40a070;
+}
+
+/* Tags, names - dark blue */
+.hljs-tag,
+.hljs-name,
+.hljs-selector-class {
+  color: #062873;
+  font-weight: bold;
+}
+
+/* Symbols, bullets */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #5c2699;
+}
+
+/* Meta, preprocessor */
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+  color: #007020;
+}
+
+/* Deletion - red */
+.hljs-deletion {
+  color: #c02020;
+  background-color: #ffd0d0;
+}
+
+/* Addition - green */
+.hljs-addition {
+  color: #007020;
+  background-color: #d0ffd0;
+}
+
+/* Emphasis */
+.hljs-emphasis {
+  font-style: italic;
+}
+
+/* Strong */
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Operators, punctuation - subtle */
+.hljs-operator,
+.hljs-punctuation {
+  color: #666666;
+}
+
+/* Properties - teal */
+.hljs-property {
+  color: #0e84b5;
+}
+
+/* Documentation tags in comments */
+.hljs-doctag {
+  color: #007020;
+  font-weight: bold;
+}
+
+/* Character escapes in strings */
+.hljs-char\.escape {
+  color: #0e84b5;
+}
+
+/* Section headers */
+.hljs-section {
+  color: #003397;
+  font-weight: bold;
+}
+
+/* Function parameters */
+.hljs-params {
+  color: #1a1818;
+}
