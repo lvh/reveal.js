@@ -22,7 +22,7 @@ $white: #fff;
 
 // Body text: Open Sans (matching website)
 $mainFont: 'Open Sans', Helvetica, sans-serif;
-$mainFontSize: 42px;
+$mainFontSize: 32px;
 $mainColor: $darkGray;
 
 // Headings: Poppins in dark gray (matching website - blue is for backgrounds, not text)
@@ -32,6 +32,12 @@ $headingColor: $darkGray;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $heading1TextShadow: none;
+
+// Smaller heading sizes to prevent line breaks
+$heading1Size: 2.5em;
+$heading2Size: 1.75em;
+$heading3Size: 1.25em;
+$heading4Size: 1.0em;
 
 $codeFont: "Fira Code", "Menlo", monospace;
 
@@ -66,7 +72,7 @@ $selectionBackgroundColor: $taupe;
 // Blockquotes: match website style with teal left border
 .reveal blockquote {
   background: #f0f0f0;
-  border-left: 8px solid $teal;
+  border-left: 16px solid $teal;
   border-radius: 0.25rem;
   padding: 1em 1.5em;
   box-shadow: none;
