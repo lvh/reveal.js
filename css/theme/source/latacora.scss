@@ -61,6 +61,7 @@ $selectionBackgroundColor: $taupe;
   background: #f0f0f0;
   border-radius: 0.25rem;
   padding: 0.5em;
+  width: auto;  // Override base theme's width: 90%
 }
 
 // Pandoc wraps code in div.sourceCode - target that for centering
